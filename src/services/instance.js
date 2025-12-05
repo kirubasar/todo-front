@@ -1,7 +1,7 @@
 // define the base url for the API
 import axios from "axios";
 
-const baseURL = "https://todo-back-frb9.onrender.com/api/v2/";
+const baseURL = "https://todo-back-frb9.onrender.com/api/v2";
 
 const instance = axios.create({
   baseURL,
